@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>milsondev.com</groupId>
 	<artifactId>samba-caju-common-dto</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>samba-caju-common-dto</name>
 	<description>samba-caju-common-dto</description>
 	<url/>
@@ -29,6 +29,16 @@
 	<properties>
 		<java.version>17</java.version>
 	</properties>
+
+	<!-- Add the distributionManagement section -->
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub OWNER Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/milsondepaz/samba-caju-common-dto</url>
+		</repository>
+	</distributionManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
